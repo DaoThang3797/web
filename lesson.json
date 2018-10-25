@@ -1,179 +1,86 @@
 [  
-         {
-            "idLesson": 1,                                      
-            "lessonName": "Home",                       
-            "sector": [                                         
-                {
-                    "idSector": 1,                              
-                    "sectorName": "HTML5 Tutorial",                      
-                    "content": "With HTML you can create your own Website.
-                        This tutorial teaches you everything about HTML.
-                        HTML is easy to learn - You will enjoy it.", 
-                    "code": "null",            
-                    "contentType": "text",                  
-                    "description": "null",
-                    "warning": "null"
-                },
-                {
-                    "idSector": 2,
-                    "sectorName": "Examples in Every Chapter",
-                    "content": "This HTML tutorial contains hundreds of HTML examples.
-                With our online HTML editor, you can edit the HTML, and click on a button to view the result.",
-                    "code": "<!DOCTYPE html>/n<html>/n<head> /n<title>/n</head>/n<body>/n<h1>My First Heading</h1>/n<p>My first paragraph.</p> /n</body>/n</html>",
-                    "contentType": "text",
-                    "description": "Start learning HTML now!",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 3,
-                    "sectorName": "HTML Examples",
-                    "content": "At the end of the HTML tutorial, you can find more than 200 examples.With our online editor, you can edit and test each example yourself.",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "Go to HTML Examples!",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 4,
-                    "sectorName": "HTML Exercises and Quiz Test",
-                    "content": "Test your HTML skills at W3Schools!",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "Start HTML Exercises!/nStart HTML Quiz!",
-                    "warning" : "null"
-                }      
-            ]
-        },                                             
-        {
-            "idLesson": 2,                                      
-            "lessonName": "Introduction",                       
-            "sector": [                                         
-                {
-                    "idSector": 1,                              
-                    "sectorName": "What is HTML?",                      
-                    "content": "HTML is the standard markup language for creating Web pages. \nHTML stands for Hyper Text Markup Language \nHTML describes the structure of Web pages using markup \nHTML elements are the building blocks of HTML pages \nHTML elements are represented by tags \nHTML tags label pieces of content such as heading, paragraph, table, and so on \nBrowsers do not display the HTML tags, but use them to render the content of the page", 
-                    "code": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</head>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p> </body>\n</html>",            
-                    "contentType": "text",                  
-                    "description": "The <!DOCTYPE html> declaration defines this document to be HTML5\nThe <html> element is the root element of an HTML page\nThe <head> element contains meta information about the document\nThe <title> element specifies a title for the document\nThe <body> element contains the visible page content\nThe <h1> element defines a large heading\nThe <p> element defines a paragraph",
-                    "warning": "null"
-                },
-                {
-                    "idSector": 2,
-                    "sectorName": "HTML Tags",
-                    "content": "HTML tags are element names surrounded by angle brackets:",
-                    "code": "<tagname>content goes here...</tagname>",
-                    "contentType": "text",
-                    "description": "HTML tags normally come in pairs like <p> and </p>\nThe first tag in a pair is the start tag, the second tag is the end tag\nThe end tag is written like the start tag, but with a forward slash inserted before the tag name",
-                    "warning" : "Tip: The start tag is also called the opening tag, and the end tag the closing tag."
-                },
-                {
-                    "idSector": 3,
-                    "sectorName": "Web Browsers",
-                    "content": "The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.\nThe browser does not display the HTML tags, but uses them to determine how to display the document:",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "1.png",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 4,
-                    "sectorName": "HTML Page Structure",
-                    "content": "Below is a visualization of an HTML page structure:",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "2.png",
-                    "warning" : "Note: Only the content inside the <body> section (the white area above) is displayed in a browser."
-                },
-                {
-                    "idSector": 5,
-                    "sectorName": "The <!DOCTYPE> Declaration",
-                    "content": "The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.\nIt must only appear once, at the top of the page (before any HTML tags).\nThe <!DOCTYPE> declaration is not case sensitive.\nThe <!DOCTYPE> declaration for HTML5 is:",
-                    "code": "<!DOCTYPE html>",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                }
-                
-            ]
-        },
-        {
-            "idLesson": 3,
-            "lessonName": "HTML Editor",
-            "sector": [
-                {
-                    "idSector": 1,
-                    "sectorName": "Write HTML Using Notepad or TextEdit",
-                    "content": "Web pages can be created and modified by using professional HTML editors.\nHowever, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).\nWe believe using a simple text editor is a good way to learn HTML.\nFollow the four steps below to create your first web page with Notepad or TextEdit.",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 2,
-                    "sectorName": "Step 1: Open Notepad (PC)",
-                    "content": "Windows 8 or later:\nOpen the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.\nWindows 7 or earlier:\nOpen Start > Programs > Accessories > Notepad",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                },
-                
-                {
-                    "idSector": 3,
-                    "sectorName": "Step 1: Open TextEdit (Mac)\nOpen Finder > Applications > TextEdit\nAlso change some preferences to get the application to save files correctly. In Preferences > Format > choose Plain Text\nThen under \"Open and Save\", check the box that says Display HTML files as HTML code instead of formatted text.\nThen open a new document to place the code.",
-                    "content": "Below is a visualization of an HTML page structure:",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 4,
-                    "sectorName": "Step 2: Write Some HTML",
-                    "content": "Write or copy some HTML into Notepad.",
-                    "code": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</head>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>",
-                    "contentType": "text",
-                    "description": "3.png",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 5,
-                    "sectorName": "Step 3: Save the HTML Page",
-                    "content": "Save the file on your computer. Select File > Save as in the Notepad menu.\nName the file \"index.htm\" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "4.png",
-                    "warning" : "You can use either .htm or .html as file extension. There is no difference, it is up to you."
-                },
-                {
-                    "idSector": 6,
-                    "sectorName": "Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose \"Open with\").\nThe result will look much like this:",
-                    "content": "Below is a visualization of an HTML page structure:",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "1.png",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 7,
-                    "sectorName": "W3Schools Online Editor",
-                    "content": "With our free online editor, you can edit HTML code and view the result in your browser.\nIt is the perfect tool when you want to test code fast. It also has color coding and the ability to save and share code with others:",
-                    "code": "null",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                },
-                {
-                    "idSector": 8,
-                    "sectorName": "HTML Page Structure",
-                    "content": "Below is a visualization of an HTML page structure:",
-                    "code": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</head>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p> </body>\n</html>",
-                    "contentType": "text",
-                    "description": "null",
-                    "warning" : "null"
-                }
-            ]
-        }
-
-    ]
+   {  
+      "idLesson":1,
+      "lessonName":"CSS Introduction",
+      "sector":[  
+         {  
+            "idSector":1,
+            "sectorName":"What is CSS?",
+            "content":"CSS stands for Cascading Style Sheets/nCSS describes how HTML elements are to be displayed on screen, paper, or in other media/nCSS saves a lot of work. It can control the layout of multiple web pages all at once/nExternal stylesheets are stored in CSS files",
+            "code":"null",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":2,
+            "sectorName":"Why Use CSS?",
+            "content":"CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.",
+            "code":"null",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":3,
+            "sectorName":"CSS Solved a Big Problem",
+            "content":"HTML was NEVER intended to contain tags for formatting a web page!/nHTML was created to describe the content of a web page, like:/n<h1>This is a heading</h1>/n<p>This is a paragraph.</p>/nWhen tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process./n/nTo solve this problem, the World Wide Web Consortium (W3C) created CSS./nCSS removed the style formatting from the HTML page!",
+            "code":"null",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":4,
+            "sectorName":"CSS Saves a Lot of Work!",
+            "content":"The style definitions are normally saved in external .css files./nWith an external stylesheet file, you can change the look of an entire website by changing just one file!",
+            "code":"null",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         }
+      ]
+   },
+   {  
+      "idLesson":2,
+      "lessonName":"CSS Syntax and Selectors",
+      "sector":[  
+         {  
+            "idSector":1,
+            "sectorName":"CSS Syntax",
+            "content":"A CSS rule-set consists of a selector and a declaration block:/nThe selector points to the HTML element you want to style./nThe declaration block contains one or more declarations separated by semicolons./nEach declaration includes a CSS property name and a value, separated by a colon./nA CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces./nIn the following example all elements will be center-aligned, with a red text color:",
+            "code":"p {/ncolor: red;/ntext-align: center;/n}",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":2,
+            "sectorName":"CSS Selectors",
+            "content":"Windows 8 or later:\nOpen the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.\nWindows 7 or earlier:\nOpen Start > Programs > Accessories > Notepad",
+            "code":"null",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":3,
+            "sectorName":"The element Selector",
+            "content":"The element selector selects elements based on the element name./nYou can select all elements on a page like this (in this case, all elements will be center-aligned, with a red text color):",
+            "code":"p {/ncolor: red;/ntext-align: center;/n}",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         },
+         {  
+            "idSector":4,
+            "sectorName":"The id Selector",
+            "content":"The id selector uses the id attribute of an HTML element to select a specific element./nThe id of an element should be unique within a page, so the id selector is used to select one unique element!/nTo select an element with a specific id, write a hash (#) character, followed by the id of the element./nThe style rule below will be applied to the HTML element with id=para1:",
+            "code":"#para1 {/ntext-align: center;/ncolor: red;/n}",
+            "contentType":"text",
+            "description":"null",
+            "warning":"null"
+         }
+      ]
+   }
+]
