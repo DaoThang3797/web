@@ -1,86 +1,39 @@
-[  
-   {  
-      "idLesson":1,
-      "lessonName":"CSS Introduction",
-      "sector":[  
-         {  
-            "idSector":1,
+[
+  {
+    "idSector":1,
             "sectorName":"What is CSS?",
             "content":"CSS stands for Cascading Style Sheets/nCSS describes how HTML elements are to be displayed on screen, paper, or in other media/nCSS saves a lot of work. It can control the layout of multiple web pages all at once/nExternal stylesheets are stored in CSS files",
             "code":"null",
             "contentType":"text",
             "description":"null",
             "warning":"null"
-         },
-         {  
-            "idSector":2,
+  },
+  {
+    "idSector":2,
             "sectorName":"Why Use CSS?",
             "content":"CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.",
             "code":"null",
             "contentType":"text",
             "description":"null",
             "warning":"null"
-         },
-         {  
-            "idSector":3,
+  },
+  {
+    "idSector":3,
             "sectorName":"CSS Solved a Big Problem",
             "content":"HTML was NEVER intended to contain tags for formatting a web page!/nHTML was created to describe the content of a web page, like:/n<h1>This is a heading</h1>/n<p>This is a paragraph.</p>/nWhen tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process./n/nTo solve this problem, the World Wide Web Consortium (W3C) created CSS./nCSS removed the style formatting from the HTML page!",
             "code":"null",
             "contentType":"text",
             "description":"null",
             "warning":"null"
-         },
-         {  
-            "idSector":4,
+  },
+{
+    "idSector":4,
             "sectorName":"CSS Saves a Lot of Work!",
             "content":"The style definitions are normally saved in external .css files./nWith an external stylesheet file, you can change the look of an entire website by changing just one file!",
             "code":"null",
             "contentType":"text",
             "description":"null",
             "warning":"null"
-         }
-      ]
-   },
-   {  
-      "idLesson":2,
-      "lessonName":"CSS Syntax and Selectors",
-      "sector":[  
-         {  
-            "idSector":1,
-            "sectorName":"CSS Syntax",
-            "content":"A CSS rule-set consists of a selector and a declaration block:/nThe selector points to the HTML element you want to style./nThe declaration block contains one or more declarations separated by semicolons./nEach declaration includes a CSS property name and a value, separated by a colon./nA CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces./nIn the following example all elements will be center-aligned, with a red text color:",
-            "code":"p {/ncolor: red;/ntext-align: center;/n}",
-            "contentType":"text",
-            "description":"null",
-            "warning":"null"
-         },
-         {  
-            "idSector":2,
-            "sectorName":"CSS Selectors",
-            "content":"Windows 8 or later:\nOpen the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.\nWindows 7 or earlier:\nOpen Start > Programs > Accessories > Notepad",
-            "code":"null",
-            "contentType":"text",
-            "description":"null",
-            "warning":"null"
-         },
-         {  
-            "idSector":3,
-            "sectorName":"The element Selector",
-            "content":"The element selector selects elements based on the element name./nYou can select all elements on a page like this (in this case, all elements will be center-aligned, with a red text color):",
-            "code":"p {/ncolor: red;/ntext-align: center;/n}",
-            "contentType":"text",
-            "description":"null",
-            "warning":"null"
-         },
-         {  
-            "idSector":4,
-            "sectorName":"The id Selector",
-            "content":"The id selector uses the id attribute of an HTML element to select a specific element./nThe id of an element should be unique within a page, so the id selector is used to select one unique element!/nTo select an element with a specific id, write a hash (#) character, followed by the id of the element./nThe style rule below will be applied to the HTML element with id=para1:",
-            "code":"#para1 {/ntext-align: center;/ncolor: red;/n}",
-            "contentType":"text",
-            "description":"null",
-            "warning":"null"
-         }
-      ]
-   }
+  }
+
 ]
